@@ -6,9 +6,9 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  last = 13
+  last = 20
   rnd = random.randint(0, last)
-  print(quotes[rnd])
-
+  print(random.choices(quotes))
+  print(random.choices(quotes))
 if __name__== "__main__":
   primary()
